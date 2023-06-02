@@ -49,6 +49,9 @@ button{
     border-radius:40px ;
     font-size: 16px;
 }
+button:hover{
+    background-color: rgb(255, 134, 255);
+}
 ul li{
     list-style: none;
     font-size: 17px;
@@ -79,4 +82,18 @@ ul li:before{
 }
 .checked:before{
     background-image: url(/images/circle-check-solid.svg);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background-color:rgb(248, 187, 197);
 }
